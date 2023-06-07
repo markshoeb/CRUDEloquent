@@ -29,6 +29,10 @@
                         <label for="">Marks</label>
                         <input type="text" name="marks" id="" class="form-control" placeholder="" aria-describedby="helpId">
                     </div>
+                    <div class="mb-3">
+                        <label for="">Test</label>
+                        <input type="text" name="marks" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                    </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
                 @if(session()->has('status'))
